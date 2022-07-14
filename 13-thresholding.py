@@ -1,6 +1,5 @@
 import cv2 as cv
 import matplotlib.pyplot as plt
-# visulise the distribution of intensity of pixels
 
 img = cv.imread('images/car.jpg')
 cv.imshow('Car', img)
